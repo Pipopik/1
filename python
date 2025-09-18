@@ -1,0 +1,12 @@
+str_a = 'AaBbCeDd'
+uppercase_letters = str_a[::2]
+lowercase_letters = str_a[1::2]
+print('Только заглавные буквы:', uppercase_letters)
+print('Только строчные буквы:', lowercase_letters)
+
+list = ['a', '1', 'b', '2', 'c', '3']
+letters_list = li[0::2]
+numbers_list = li[1::2]
+del list
+print('Список с буквами:', letters_list)
+print('Список с цифрами:', numbers_list)
